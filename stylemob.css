@@ -1,0 +1,437 @@
+@keyframes showUp {
+    from {
+        transform: translateX(-400px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+* {
+    animation-name: showUp;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 200vh;
+    /*background-image: url('imagens/download.jfif');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background: #0c192c;
+    position: relative;
+    margin-right: auto;
+}
+
+.teste {
+    width: 70px;
+    height: 70px;
+    margin-left: 1230px;
+    margin-top: 0; /* altura que está do topo */
+    margin-top: -80px;
+    top: 300px; /* altura que vai parar antes do topo */
+    position: sticky;
+    border-radius: 50%;
+    transition-duration: 0.6s;
+    animation-timing-function: ease-in;
+}
+
+#textologo {
+    background-image: linear-gradient(90deg, rgb(251, 248, 248), rgb(248, 245, 245));
+    width: 140px;
+    color: black;
+    height: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 330px;
+    text-align: center;
+    margin-top: 0; /* altura que está do topo */
+    top: -145px;
+    right: -90px;
+    position: relative;
+    border-radius: 10px 10px 10px 0;
+    font-size: 15px;
+}
+
+#logoback {
+    width: 180px;
+    height: 140px;
+    margin-top: 30px;
+    margin-top: 0; /* altura que está do topo */
+    top: 300px; /* altura que vai parar antes do topo */
+    position: sticky;
+    border-radius: 50%;
+    transition-duration: 0.6s;
+    animation-timing-function: ease-in;
+}
+
+.teste > p {
+    display: none;
+}
+
+.teste:hover {
+    transform: scale(1.3);
+}
+
+.teste:hover > p {
+    display: block;
+}
+
+
+h1 {
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+    height: 300px;
+    max-width: 900px;
+    margin-top: -15px;
+    margin: 0 auto;
+    font-size: 100px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: azure;
+    min-width: 320px;
+
+}
+
+h1 > p {
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+    padding-top: 170px;
+    color: rgb(243, 243, 243);
+    text-shadow: 1px 1px 1px black;
+    min-width: 320px;
+}
+
+h2 {
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+    height: 60px;
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: -15px;
+    text-align: center;
+    color: aliceblue;
+    min-width: 320px;
+}
+
+h3 {
+    background-image: linear-gradient(90deg, rgb(251, 248, 248), rgb(248, 245, 245));
+    height: 1000px;
+    margin: 0 auto;
+    border-radius: 20px 20px 0px 0px;
+    max-width: 900px;
+    margin-top: 30px;
+    font-size: 29px;
+    color: rgb(0, 0, 0);
+    border-radius: 0px 0px 20px 20px;
+    min-width: 320px;
+
+}
+
+h3 > p {
+    padding-left: 15px;
+    padding-bottom: -100px;
+    margin-bottom: -80px;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    min-width: 320px;
+}
+
+#play {
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+    height: 60px;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: start;
+    font-size: 20px;
+    
+
+}
+
+
+#mainn {
+    background-image: linear-gradient(90deg, rgb(251, 248, 248), rgb(248, 245, 245));
+    font-size: 21px;
+    margin-left: -25px;
+}
+
+#b1 {
+    background-image: linear-gradient(90deg, rgb(251, 248, 248), rgb(248, 245, 245));
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+#a1 {
+    background-image: linear-gradient(90deg, rgb(251, 248, 248), rgb(248, 245, 245));
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 90px;
+    max-height: 90px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: -165px;
+    transform: scale(1);
+    transition-duration: 1s;
+    width: 100%;
+}
+
+#a1:hover {
+    transform: scale(1.2);
+}
+
+#a2 {
+    background-image: linear-gradient(90deg, rgb(251, 248, 248), rgb(248, 245, 245));
+    border-radius: 50%;
+    overflow: hidden;
+    min-width: 130px;
+    max-height: 130px;
+    margin-top: 17px;
+    transition-duration: 0.3s;
+    margin-left: -30px;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    transform: scale(1);
+    transition-duration: 1s;
+    width: 100%;
+}
+
+#a2:hover {
+    transform: scale(1.1);
+}
+
+#b2 {
+    background-image: linear-gradient(90deg, rgb(251, 248, 248), rgb(248, 245, 245));
+    margin-left: 360px;
+    margin-top: 46px;
+    margin-bottom: -200px;
+    max-width: 32px;
+}
+
+#b3 {
+    background-image: linear-gradient(90deg, rgb(251, 248, 248), rgb(248, 245, 245));
+    margin-top: 260px;
+    margin-left: 30px;
+    margin-bottom: -230px;
+    min-width: 320px;
+}
+
+#a3 {
+    background-image: linear-gradient(90deg, rgb(251, 248, 248), rgb(248, 245, 245));
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 45px;
+    transform: scale(0.6);
+    transition-duration: 1s;
+    width: 100%;
+}
+
+#a3:hover {
+    transform: scale(0.9);
+}
+
+#a4 {
+    background-image: linear-gradient(90deg, rgb(251, 248, 248), rgb(248, 245, 245));
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 120px;
+    max-height: 120px;
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: -40px;
+    transform: scale(0.8);
+    transition-duration: 1s;
+    width: 100%;
+}
+
+#a4:hover {
+    transform: scale(1);
+}
+
+#b4 {
+    background-image: linear-gradient(90deg, rgb(251, 248, 248), rgb(248, 245, 245));
+    margin-left: 335px;
+    margin-top: 60px;
+    font-size: 22px;
+    padding-bottom: 10px;
+    min-width: 320px;
+}
+
+h4 {
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+    height: 60px;
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: -370px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#ticontato {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+    color: rgb(217, 217, 217);
+}
+
+h5 {
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+    height: 60px;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#contato {
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+    height: 60px;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: start;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+#disc {
+    margin: 0 auto;
+    max-width: 900px;
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+}
+
+#zap {
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+    height: 60px;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: start;
+    font-size: 20px;
+
+}
+
+#zapimg {
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 50px;
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: -75px;
+    margin-left: 180px;
+    transform: scale(0.6);
+    transition-duration: 1s;
+}
+
+#zapimg:hover {
+    transform: scale(0.9);
+}
+
+#insta {
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+    height: 60px;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: start;
+    font-size: 20px;
+
+}
+
+#instaimg {
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 50px;
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: -60px;
+    margin-left: 230px;
+    transform: scale(0.6);
+    transition-duration: 1s;
+}
+
+#instaimg:hover {
+    transform: scale(0.9);
+}
+
+#face {
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+    height: 60px;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: start;
+    font-size: 20px;
+
+}
+
+#faceimg {
+    background-image: linear-gradient(90deg, red, rgb(147, 69, 69));
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 50px;
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: -60px;
+    margin-left: 280px;
+    transform: scale(0.6);
+    transition-duration: 1s;
+}
+
+#faceimg:hover {
+    transform: scale(0.9);
+}
+
+h6 {
+    background-image: linear-gradient(90deg, rgb(62, 62, 62), rgb(62, 62, 62));
+    height: 290px;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: start;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+}
+
+#horario {
+    background-image: linear-gradient(90deg,rgb(62, 62, 62), rgb(62, 62, 62));
+    color: white;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+#code:hover {
+    transform: scale(6);
+
+}
+
+#copyright {
+    color: rgb(183, 183, 183);
+    padding-top: 00px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: -45px;
+}
+
+#copymusic {
+    color: rgb(183, 183, 183);
+    padding-top: 2px;
+    text-align: center;
+    font-size: 10px;
+}
+
+#divisoria {
+    background-image: linear-gradient(90deg,rgb(62, 62, 62), rgb(62, 62, 62));
+    margin-top: -1050px;
+    height: 30px;
+}
